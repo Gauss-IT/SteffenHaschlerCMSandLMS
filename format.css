@@ -1,0 +1,305 @@
+/* ====== allgemein ======  */
+
+
+/* breite der gesamtkonstruktion  */
+#breite {width:970px}
+
+/* breite der rechten spalte in pixel */
+.breite_hauptspalte_re {width:280px;margin:0px;padding:0px}
+
+body
+{margin-top: 30px; margin-left: 0px; margin-right: 0px;margin-bottom: 30px;        background-color: #f0f0f0;
+}
+
+/* überschriften */
+h2{ color:#4F7AAE;
+margin-bottom:30px;letter-spacing:1px;
+font-family: trebuchet ms,verdana, tahoma,helvetica, verdana, tahoma, sans-serif;
+font-size: 22px;
+font-variant:normal;font-weight:normal
+}
+
+/* foto im text links */
+.imgstyle {float:left;border:solid 1px           #000;margin-left:0px;margin-top:20px;margin-bottom:20px;margin-right:20px}
+
+/* foto im text rechts - BISHER NICHT EINGEBAUT */
+.imgstyle2 {float:RIGHT;border:solid 1px           #b6b6b6;margin-left:2px;margin-top:20px;margin-bottom:20px;margin-right:0px}
+
+/* rahmen um die seite -hier nicht aktiv bzw nicht sichtbar, da 1pixel weiss */
+.haupt {background-color:#;
+border:solid 1px #fff;
+}
+
+/* homepagename */
+#name {
+letter-spacing:3px;
+color:#345072;
+padding-left:0px;
+font-family: trebuchet ms,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+font-size:13px;
+font-variant:normal;
+font-weight:normal
+}
+
+/* farbige scrolleiste internet explorer ab vers.5.5 */
+
+body
+{scrollbar-arrow-color: #535353; scrollbar-base-color: #fff;
+scrollbar-highlight-color : #535353; scrollbar-shadow-color : #fff;
+SCROLLBAR-TRACK-COLOR: #EFEFEF;}
+
+/* ====== kopfbereich ======  */
+
+#top1a1 {height:40px;
+background-color:#fff;
+background-image:url(images/fv1.jpg);
+background-repeat:repeat-x;
+background-position:  0% 0%;
+text-align:center;
+vertical-align:middle;
+border-top: solid 6px #fff;
+}
+
+#top1a2 {height:40px;
+background-color:#fff;
+background-image:url(images/fv1fuss.jpg);
+background-repeat:repeat-x;
+background-position:100% 100%;
+text-align:center;
+vertical-align:middle;
+}
+
+#top1b {background-color:#fff;
+text-align:center;
+vertical-align:middle;
+padding-bottom:0px;
+}
+
+#top2a {
+background-color:#698ab3;
+color:#345072;
+text-align:left;
+padding-left:20px;
+padding-bottom:20px;
+vertical-align:bottom;
+height:280px;
+border-top: solid 6px #fff;
+background-image:url(images/panorama-4.jpg);
+background-repeat:no-repeat;
+background-position:100% 50%;
+}
+
+#logo {
+background-color:#fff;
+}
+
+/* ====== inhaltsbereich ====== */
+
+#inhalt {height:100px;
+border-top: solid 6px #fff;
+background-color:#fff;
+text-align:left;
+vertical-align:top;
+height:720px;
+padding-top: 50px; padding-bottom: 0px;
+padding-left: 30px;padding-right:30px;
+letter-spacing:0px;
+width:100%;
+color:#426591;
+font-size: 15px;line-height: 23px;
+font-family: verdana,arial,helvetica, verdana, tahoma, sans-serif;
+background-image:url(images/fv1.jpg);
+background-repeat:repeat-x;
+background-position:  0% 0%;
+}
+
+/* ====== hauptleiste links für menü und div-boxen ====== */
+
+#leiste {height:100px;
+background-color:#385476;
+background-image:url(images/fv2.jpg);
+background-repeat:no-repeat;
+background-position:  0% 0%;
+color:#7f7f7f;
+text-align:center;
+vertical-align:top;
+text-align:center;
+border-left:solid 6px #fff;
+border-top: solid 6px #fff;
+}
+
+
+h3.boxheader {color:#fff;background-color:#;
+font-size: 14px;line-height: 18px;
+font-family: trebuchet ms,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+padding-left:0px;
+margin-bottom:30px;
+border-bottom:solid 1px #fff;
+letter-spacing:1px}
+
+.box1{
+font-size: 14px;line-height: 15px;
+font-family: tahoma,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+vertical-align:middle;
+text-align:center;
+}
+
+.box4{
+font-size: 14px;line-height: 15px;
+font-family: tahoma,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+background-color:#;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+vertical-align:top;
+color:#7f7f7f;
+padding-left:20px;
+padding-right:20px;
+background-image:url(images/xfvklein.html);
+background-repeat:no-repeat;
+background-position:  50% 50%;
+}
+
+.box3{
+font-size: 14px;line-height: 15px;
+font-family: tahoma,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+background-color:#;
+padding:0px;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+padding-left:20px;
+padding-right:20px;
+vertical-align:top;
+color:#7f7f7f;
+text-align:center;
+
+
+}
+
+
+.box2{
+font-size: 12px;line-height: 16px;
+font-family: trebuchet ms,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+background-color:#;
+padding:0px;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+padding-left:20px;
+padding-right:20px;
+vertical-align:top;
+color:#99ADCC;
+text-align:left;
+background-image:url(images/xfvklein2.html);
+background-repeat:no-repeat;
+background-position:  0% 50%;
+}
+
+
+
+
+/* ====== fussbereich ======  */
+
+#fuss {font-size: 15px;line-height: 20px;
+color:#fff;
+background-color:#fff;
+letter-spacing:0px;
+font-family: tahoma,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+text-align:center;
+vertical-align:middle;
+width:100%;
+background-image:url(images/fuss.html);
+background-repeat:no-repeat;
+background-position:100% 100%;
+
+}
+
+#fuss1a {font-size: 15px;line-height: 20px;
+color:#fff;
+background-color:#fff;
+height:60px;
+border-bottom:solid 6px #fff;
+background-image:url(images/fv1fuss.jpg);
+background-repeat:repeat-x;
+background-position:100% 100%;
+}
+
+#fuss1c {font-size: 12px;
+color:#fff;
+background-color:#38547c;
+letter-spacing:0px;
+font-family: tahoma,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+text-align:center;
+vertical-align:middle;
+border-left:solid 6px #fff;
+border-bottom:solid 6px #fff;
+background-image:url(images/xfvklein3.html);
+background-repeat:no-repeat;
+background-position:  50% 100%;
+
+}
+
+#fuss1b {font-size: 15px;line-height: 20px;
+color:#4F4F4F;
+background-color:#8d541c;
+width:100%;
+border-bottom:solid 6px #fff;
+background-image:url(images/fv1fuss.jpg);
+background-repeat:repeat-x;
+background-position:100% 100%;
+text-align:center;
+vertical-align:middle;
+padding-top:0px
+
+}
+
+#fuss2a {font-size: 15px;line-height: 20px;
+color:#fff;
+height:120px;
+border-right:solid 6px #fff;
+background-color:#385577;
+background-image:url(images/fv3.jpg);
+background-repeat:no-repeat;
+background-position:  100% 0%;
+}
+
+#fuss2b {font-size: 15px;line-height: 20px;
+font-family: verdana,arial,helvetica, tahoma, sans-serif;
+color:#fff;
+width:100%;
+background-color:#698ab3;
+letter-spacing:-1px;
+background-image:url(images/panorama-4-small.jpg);
+background-repeat:repeat-y;
+background-position:0% 100%;
+}
+
+#fuss2c {font-size: 12px;line-height: 20px;
+color:#fff;
+letter-spacing:0px;
+font-family: tahoma,verdana,arial,helvetica, verdana, tahoma, sans-serif;
+text-align:center;
+vertical-align:middle;
+border-left:solid 6px #fff;
+background-color:#385577;
+background-image:url(images/fv2.jpg);
+background-repeat:no-repeat;
+background-position:  0% 0%;
+}
+
+#twitter_badge_container{width: 610px; background: #C1EAFF}
+#twitter_badge_tl{background: transparent url(images/twitter_tl.html) top left no-repeat;}
+#twitter_badge_tr{background: transparent url(images/twitter_tr.html) top right no-repeat;}
+#twitter_badge_bl{background: transparent url(images/twitter_bl.html) bottom left no-repeat;}
+#twitter_badge_br{background: transparent url(images/twitter_br.html) bottom right no-repeat; }
+#twitter_badge_inner{padding: 45px 10px 10px 10px;}
+#twitter_badge_via {font-size: 10px }
+#twitter_badge_via a {color #666}
+
+/* defaults */
+#my_twitter_status{}
+#my_twitter_status_time{color: #666; font-size: 10px;}
