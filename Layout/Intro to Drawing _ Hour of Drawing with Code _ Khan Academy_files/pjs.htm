@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Execution Environment</title>
+    <link rel="stylesheet" type="text/css" href="pjs_data/scratchpads-exec-package-97da07.css">
+<style type="text/css">@font-face {
+  font-family: "PjsEmptyFont";
+  src: url('data:application/x-font-ttf;base64,AAEAAAAKAIAAAwAgT1MvMgAAAAAAAAEoAAAAVmNtYXAAAAAAAAABiAAAACxnbHlmAAAAAAAAAbwAAAAkaGVhZAAAAAAAAACsAAAAOGhoZWEAAAAAAAAA5AAAACRobXR4AAAAAAAAAYAAAAAGbG9jYQAAAAAAAAG0AAAABm1heHAAAAAAAAABCAAAACBuYW1lAAAAAAAAAeAAAAAgcG9zdAAAAAAAAAIAAAAAEAABAAAAAQAAAkgTY18PPPUACwAgAAAAALSRooAAAAAAyld0xgAAAAAAAQABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAACAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAIwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMAAQAAAAwABAAgAAAABAAEAAEAAABB//8AAABB////wAABAAAAAAAAAAgAEgAAAAEAAAAAAAAAAAAAAAAxAAABAAAAAAABAAEAAQAAMTcBAQAAAAAAAgAeAAMAAQQJAAEAAAAAAAMAAQQJAAIAAgAAAAAAAQAAAAAAAAAAAAAAAAAA')
+       format('truetype');
+}</style></head>
+<body>
+    <div id="live-editor-output"><div class="output"><canvas style="image-rendering: -moz-crisp-edges ! important;" height="400" width="400" tabindex="0" id="output-canvas"></canvas></div></div>
+
+    
+    <script>
+window.PackageManager = window.PackageManager || {
+    _q: [],
+    setLoaded: function() {
+        this._q.push.apply(this._q, arguments);
+    }
+};
+PackageManager.setLoaded("scratchpads-exec.css")</script>
+<script crossorigin="anonymous" src="pjs_data/corelibs-package-286e3b.js"></script>
+<script>PackageManager.setLoaded("corelibs.js")</script>
+
+<script crossorigin="anonymous" src="pjs_data/shared-package-479fbb.js"></script>
+<script>PackageManager.setLoaded("shared.js")</script>
+<script crossorigin="anonymous" src="pjs_data/scratchpads-exec-package-e4aaaf.js"></script>
+<script>PackageManager.setLoaded("scratchpads-exec.js")</script>
+
+<script crossorigin="anonymous" src="pjs_data/scratchpads-exec-pjs-package-98f68d.js"></script>
+<script>PackageManager.setLoaded("scratchpads-exec-pjs.js")</script>
+
+    <script>
+    (function() {
+        var LiveEditorOutput = KAdefine.require("./third_party/javascript-khansrc/live-editor/build/js/live-editor.output.js").LiveEditorOutput;KAdefine.require("./third_party/javascript-khansrc/live-editor/build/js/live-editor.output_pjs.js");
+
+        /* Initialize LiveEditorOutput.
+            We do it here to make sure everything has been loaded already. */
+        var hostname = window.location.hostname;
+
+        /*
+         * To prevent XSS, we don't want people embedding
+         * http://www.khanacademy.org/computer-programming/exec directly because it's happy to
+         * run arbitrary JS sent via postMessage
+         * TODO(alpert): Protect nondefault instances too
+         */
+        if (!(/\bkhanacademy\.org$/i).test(hostname)) {
+            var $ = KAdefine.require("jquery");
+            // Hook in the execution enviroment
+            new LiveEditorOutput({
+                el: $("#live-editor-output")[0]
+            });
+        }
+	})();
+    </script>
+    
+
+<span style="position: absolute; top: 0px; left: 0px; opacity: 0; font-family: &quot;PjsEmptyFont&quot;,fantasy;">AAAAAAAA</span></body></html>
